@@ -1,0 +1,25 @@
+{
+  "name": "wolfplex-web-campaigns-2013",
+  "version": "0.1.0",
+  "description": "Wolfplex Hackerspace - 2013 campaign",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wolfplex/web-campaigns-2013.git"
+  },
+  "keywords": [
+    "wolfplex",
+    "reveal",
+    "slideshow",
+    "presentation",
+    "campaign",
+    "ad"
+  ],
+  "author": "Sébastien Santoro aka Dereckson",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/wolfplex/web-campaigns-2013/issues"
+  }
+  "devDependencies": {
+    "grunt": "~0.4.1",
+  }
+}
