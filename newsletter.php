@@ -72,7 +72,7 @@
 ?>
                     <p>Intéressé ? Laisse-nous ton mail ici :
                     <form method="post">
-                        <input id="mail" name="mail" type="text" size="48" value="<?= $mail ?>" />
+                        <input id="mail" name="mail" type="text" size="29" value="<?= $mail ?>" />
                         <input id="ok" type="submit" value="OK" />
                     </form>
 <?php
