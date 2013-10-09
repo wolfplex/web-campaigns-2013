@@ -57,6 +57,10 @@ body {
 /*********************************************
  * Slides
  *********************************************/
+#welcome {
+    margin-top: 25%;
+}
+
 #stats .container, #what .container {
     height: 520px;
 }
@@ -94,33 +98,37 @@ body {
     color: #354247;
 }
 
+#publicspace {
+    width: 640px;
+}
+
 #colophon {
     font-size-adjust: 0.3;
 }
 
 ul.double {
-  width: 760px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+    width: 760px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .double li {
-  float: left;
+    float: left;
+    width: 50%;
 }
-
-.double li { width: 50%; }
 
 input {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
     color: white;
     font-family: "Open Sans";
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 1em;
 }
 
 #mail {
-    height: 2em;
-    padding: 0.5em;
+    height: 3em;
+    padding: 0 0.5em;
 }
 
 #ok {
