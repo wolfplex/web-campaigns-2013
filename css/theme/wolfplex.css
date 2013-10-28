@@ -118,9 +118,9 @@ ul.double {
 }
 
 input {
-    background-color: rgba(0, 0, 0, 0.4);
-    border: none;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 0.5em solid #212121;
+    color: #343434;
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 1em;
@@ -132,7 +132,7 @@ input {
 }
 
 #ok {
-    height: 3em;
+    height: 4em;
 }
 
 /*********************************************
