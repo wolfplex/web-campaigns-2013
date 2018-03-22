@@ -83,11 +83,3 @@
         </div>
 	</body>
 </html>
-<?php
-require_once('/var/wwwroot/wolfplex.org/analytics/owa_php.php');
-
-$owa = new owa_php();
-$owa->setSiteId('076a11a6d44ea1ca6490af4f53b86e41');
-$owa->setPageTitle('Campaign2013NewsletterConfirmForm');
-$owa->setProperty('hasSubscribed', $subscribed);
-$owa->trackPageView();
