@@ -42,7 +42,7 @@
         $mail = $_POST['mail'];
         if (preg_match('/@/', $mail)) {
             $subscribed = true;
-            $fd = fopen('../../.dat/2013.txt', 'a');
+            $fd = fopen($_ENV['DATASTORE'] . '/2013.txt', 'a');
             fwrite($fd, "$mail\n");
             fclose($fd);
         } else {
